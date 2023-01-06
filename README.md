@@ -59,7 +59,18 @@
 
    整个部分
 
-7. 
+7. 增大post页右侧导航的字号，在/_sass/layout/post.scss 里增加
+
+   ```
+   #toc li a {
+     font-size: 1rem;
+     &.nav-link:not(.active) {
+       color: #ababab;
+     }
+   }
+   ```
+
+   
 
    <div class="post-meta text-muted">
 
