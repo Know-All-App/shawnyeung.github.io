@@ -83,14 +83,6 @@
         @extend %normal-font-style;
       }
 
-      .post-excerpt {
-        margin-top: 1.2rem;
-        margin-bottom: 0.6rem;
-        color: var(--sidebar-active-color);
-        font-size: 1.2rem;
-        font-weight: 500;
-      }
-
       .pin {
         i {
           -webkit-transform: rotate(45deg);
@@ -105,10 +97,12 @@
       }
     }
 
-    .post-content {
+    .post-excerpt {
       margin-top: 0.6rem;
       margin-bottom: 0.6rem;
-      color: var(--post-list-text-color);
+      color: var(--sidebar-active-color);
+      font-size:1.2rem;
+      font-weight:500;
 
       > p {
         /* Make preview shorter on the homepage */
