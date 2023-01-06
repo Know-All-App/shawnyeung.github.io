@@ -83,22 +83,13 @@
         @extend %normal-font-style;
       }
 
-     .post-excerpt {
-       margin-top: 1.2rem;
-       margin-bottom: 0.6rem;
-       color: var(--sidebar-active-color);
-       font-size: 1.2rem;
-       font-weight: 500;
-       > p {
-         /* Make preview shorter on the homepage */
-         margin: 0;
-         overflow: hidden;
-         text-overflow: ellipsis;
-         display: -webkit-box;
-         -webkit-line-clamp: 2;
-         -webkit-box-orient: vertical;
+      .post-excerpt {
+        margin-top: 1.2rem;
+        margin-bottom: 0.6rem;
+        color: var(--sidebar-active-color);
+        font-size: 1.2rem;
+        font-weight: 500;
       }
-    }
 
       .pin {
         i {
