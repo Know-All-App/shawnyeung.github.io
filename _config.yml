@@ -80,7 +80,7 @@ theme_mode:   # [light|dark]
 img_cdn: 'https://cdn.jsdelivr.net/gh/shawnyeung/shawnyeung.github.io@master'
 
 # the avatar on sidebar, support local or CORS resources
-avatar: '/assets/img/favicons/favicon.ico'
+avatar: 'https://cdn.jsdelivr.net/gh/shawnyeung/shawnyeung.github.io@main/assets/img/favicons/android-chrome-192x192.png'
 
 # boolean type, the global switch for ToC in posts.
 toc: true
