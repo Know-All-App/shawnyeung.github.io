@@ -36,6 +36,7 @@
          margin-top: 0.6rem;
          margin-bottom: 0.6rem;
          color: var(--post-list-text-color);
+         }
    ```
 
    替换为
@@ -47,6 +48,7 @@
          color: var(--sidebar-active-color);
          font-size:1.2rem;
          font-weight:500;
+         }
    ```
 
    
@@ -64,6 +66,7 @@
    ```
    #toc li a {
      font-size: 1rem;
+     
      &.nav-link:not(.active) {
        color: #ababab;
      }
