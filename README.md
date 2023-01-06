@@ -51,7 +51,13 @@
 
    
 
-6. post页删除摘要，需要删除在/_layouts/post.html 里的<div class="post-meta text-muted">整个部分
+6. post页删除摘要，需要删除在/_layouts/post.html 里的
+
+   ```
+   <div class="post-meta text-muted">
+   ```
+
+   整个部分
 
 7. 
 

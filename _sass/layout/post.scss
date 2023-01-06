@@ -273,6 +273,15 @@ h1 + .post-meta {
   }
 }
 
+#toc li a {
+  font-size: 1rem;
+
+  &.nav-link:not(.active) {
+    color: #ababab;
+  }
+
+}
+
 nav[data-toggle="toc"] {
   .nav {
     .nav > li > a.active {
